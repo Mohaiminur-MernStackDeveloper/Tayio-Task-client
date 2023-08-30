@@ -1,9 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
+import ContactMain from "./ContactPage/ContactMain";
 
- const route = createBrowserRouter([
+ const route:any = createBrowserRouter([
     {
         path : "/",
-        element: <h1>Mohaiminur</h1>
+        element: <ContactMain/>
     }
  ]);
 
